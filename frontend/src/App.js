@@ -257,53 +257,45 @@ function App() {
         </div>
       </section>
 
-      {/* Products Section */}
-      <section id="products" className="section products-section">
+      {/* Subsidiaries Section */}
+      <section id="subsidiaries" className="section products-section">
         <div className="container">
           <div className="section-header">
-            <h2 className="section-title" data-testid="products-title">Our Products</h2>
-            <p className="section-subtitle" data-testid="products-subtitle">
-              Premium quality fresh mutton from our integrated farming network
+            <h2 className="section-title" data-testid="subsidiaries-title">Our Subsidiaries</h2>
+            <p className="section-subtitle" data-testid="subsidiaries-subtitle">
+              Diversified portfolio of companies serving the complete agricultural value chain
             </p>
           </div>
           <div className="products-content">
-            <div className="product-feature">
-              <div className="feature-badge" data-testid="product-badge-fresh">Fresh & Hygienic</div>
-              <h3>Fresh Mutton Supply</h3>
-              <p>
-                We supply premium quality fresh mutton from our network of partner farms. Every product
-                is traceable, ensuring complete transparency from farm to table.
-              </p>
-            </div>
             <div className="product-features-grid">
-              <div className="feature-item" data-testid="feature-quality">
+              <div className="feature-item" data-testid="subsidiary-farmers-market-farms">
                 <div className="feature-number">01</div>
-                <h4>Quality Assurance</h4>
-                <p>Stringent quality checks at every stage from farm to delivery</p>
+                <h4>Farmers Market Farms</h4>
+                <p>Integrated sheep and goat farming operations providing premium quality livestock and sustainable farming solutions</p>
               </div>
-              <div className="feature-item" data-testid="feature-hygiene">
+              <div className="feature-item" data-testid="subsidiary-farmers-market-training">
                 <div className="feature-number">02</div>
-                <h4>Hygiene Standards</h4>
-                <p>FSSAI certified processing facilities with modern infrastructure</p>
+                <h4>Farmers Market Training</h4>
+                <p>Comprehensive training programs for farmers on modern animal husbandry, breeding techniques, and farm management</p>
               </div>
-              <div className="feature-item" data-testid="feature-traceability">
+              <div className="feature-item" data-testid="subsidiary-rapid-feeds">
                 <div className="feature-number">03</div>
-                <h4>Traceability</h4>
-                <p>Complete tracking from source farm to delivery point</p>
+                <h4>Rapid Feeds</h4>
+                <p>High-quality nutritional feed solutions designed for optimal livestock growth and health across all farming stages</p>
               </div>
-              <div className="feature-item" data-testid="feature-freshness">
+              <div className="feature-item" data-testid="subsidiary-farmers-market-poultry">
                 <div className="feature-number">04</div>
-                <h4>Guaranteed Freshness</h4>
-                <p>Cold chain management ensuring optimal freshness</p>
+                <h4>Farmers Market Poultry</h4>
+                <p>Modern poultry farming operations delivering quality products and expanding our integrated farming ecosystem</p>
               </div>
             </div>
             <div className="products-cta">
               <Button 
                 className="cta-button large"
                 onClick={() => scrollToSection("contact")}
-                data-testid="products-order-button"
+                data-testid="subsidiaries-contact-button"
               >
-                Order Now <ChevronRight className="ml-2 h-5 w-5" />
+                Partner With Us <ChevronRight className="ml-2 h-5 w-5" />
               </Button>
             </div>
           </div>
