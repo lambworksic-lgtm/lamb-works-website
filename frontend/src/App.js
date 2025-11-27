@@ -462,6 +462,7 @@ function App() {
                   <div>
                     <div className="contact-label">Phone</div>
                     <div className="contact-value">+91 9902514269</div>
+                    <div className="contact-value">+91 9108208475</div>
                   </div>
                 </div>
                 <div className="contact-item" data-testid="contact-address">
