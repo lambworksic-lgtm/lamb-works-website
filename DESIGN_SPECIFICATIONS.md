@@ -468,7 +468,7 @@
 5. Investment Opportunities
 
 ### Contact Information
-- **Email**: info@lambworks.in
+- **Email**: info@lambworkscorporation.in
 - **Phone 1**: +91 9902514269
 - **Phone 2**: +91 9108208475
 - **Address**: Lamb Works India Corporation Limited, Hebbal, Bengaluru, Karnataka 560032
