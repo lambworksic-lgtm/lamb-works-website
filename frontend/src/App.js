@@ -192,7 +192,7 @@ function App() {
           <div className="section-header">
             <h2 className="section-title" data-testid="network-title">Our Farming Network</h2>
             <p className="section-subtitle" data-testid="network-subtitle">
-              A growing ecosystem of farmers, suppliers, and distributors working together
+              A growing ecosystem of farmers, suppliers and distributors working together
             </p>
           </div>
           <div className="network-grid">
