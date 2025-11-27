@@ -475,10 +475,9 @@ function App() {
               </div>
 
               <div className="social-links">
-                <a href="#" className="social-link" data-testid="social-facebook"><Facebook /></a>
-                <a href="#" className="social-link" data-testid="social-twitter"><Twitter /></a>
-                <a href="#" className="social-link" data-testid="social-linkedin"><Linkedin /></a>
-                <a href="#" className="social-link" data-testid="social-instagram"><Instagram /></a>
+                <a href="https://www.facebook.com/FarmersMarketKannada/" target="_blank" rel="noopener noreferrer" className="social-link" data-testid="social-facebook"><Facebook /></a>
+                <a href="https://www.instagram.com/farmers_marketyt/" target="_blank" rel="noopener noreferrer" className="social-link" data-testid="social-instagram"><Instagram /></a>
+                <a href="https://www.youtube.com/c/FarmersMarketShorts" target="_blank" rel="noopener noreferrer" className="social-link" data-testid="social-youtube"><Youtube /></a>
               </div>
             </div>
 
