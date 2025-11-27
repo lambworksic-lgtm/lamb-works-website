@@ -280,13 +280,23 @@ function App() {
               </div>
               <div className="feature-item" data-testid="subsidiary-rapid-feeds">
                 <div className="feature-number">03</div>
-                <h4>Rapid Feeds</h4>
+                <h4>Rapid Feeds™</h4>
                 <p>High-quality nutritional feed solutions designed for optimal livestock growth and health across all farming stages</p>
               </div>
               <div className="feature-item" data-testid="subsidiary-farmers-market-poultry">
                 <div className="feature-number">04</div>
                 <h4>Farmers Market Poultry</h4>
                 <p>Modern poultry farming operations delivering quality products and expanding our integrated farming ecosystem</p>
+              </div>
+              <div className="feature-item" data-testid="subsidiary-classic-gudde">
+                <div className="feature-number">05</div>
+                <h4>Classic Gudde</h4>
+                <p>In association with Ambe Sheep Farms, bringing authentic Davanagere-style mutton delicacies. A cherished culinary tradition featuring specially prepared meat that captures the rich heritage and distinctive flavors of Karnataka's renowned meat culture</p>
+              </div>
+              <div className="feature-item" data-testid="subsidiary-farmcuts">
+                <div className="feature-number">06</div>
+                <h4>Farmcuts™</h4>
+                <p>Your premium destination for the finest selection of fresh, tender chicken, mutton, and fish. We deliver farm-fresh quality with expert butchery, ensuring every cut meets the highest standards of freshness and taste</p>
               </div>
             </div>
             <div className="products-cta">
