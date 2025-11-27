@@ -202,7 +202,7 @@ function App() {
                   <Users className="network-icon" />
                 </div>
                 <CardTitle>Partner Farmers</CardTitle>
-                <CardDescription>50+ verified farms across 12 states</CardDescription>
+                <CardDescription>24+ verified farms across 18+ districts</CardDescription>
               </CardHeader>
               <CardContent>
                 <p>Our partner farmers follow best practices in animal welfare, sustainable grazing, and quality breeding. We provide ongoing support, training, and fair pricing.</p>
