@@ -507,9 +507,9 @@ function App() {
           <div className="footer-content">
             <div className="footer-brand">
               <div className="footer-logo">
-                <span className="logo-icon">LW</span>
-                <span>Lamb Works Corporation</span>
-              </div>
+              <img src="https://customer-assets.emergentagent.com/job_farm-integrate/artifacts/dg1tcpri_Main%20Logo.png" alt="Lamb Works Logo" className="logo-icon" />
+              <span className="company-name-vertical">LAMB WORKS CORPORATION</span>
+            </div>
               <p className="footer-tagline">Building India's next-gen integrated farming network for sheep and goat</p>
             </div>
             <div className="footer-links">
