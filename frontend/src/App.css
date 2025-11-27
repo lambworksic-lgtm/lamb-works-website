@@ -739,12 +739,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .footer-logo .company-name-vertical {
   font-family: 'Yeseva One', serif;
-  writing-mode: vertical-rl;
-  text-orientation: upright;
-  font-size: 1.1rem;
-  letter-spacing: -0.05em;
+  font-size: 1.25rem;
   color: white;
-  line-height: 1;
+  line-height: 1.2;
 }
 
 .footer-tagline {
