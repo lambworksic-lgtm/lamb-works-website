@@ -58,14 +58,6 @@ function App() {
             <button onClick={() => scrollToSection("contact")} data-testid="nav-contact">Contact</button>
           </div>
 
-          <Button 
-            className="cta-button desktop-cta"
-            onClick={() => scrollToSection("contact")}
-            data-testid="nav-cta-button"
-          >
-            Get Started <ChevronRight className="ml-1 h-4 w-4" />
-          </Button>
-
           <button 
             className="mobile-menu-toggle"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
