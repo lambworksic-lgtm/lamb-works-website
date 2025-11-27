@@ -115,16 +115,16 @@ function App() {
         </div>
         <div className="hero-stats">
           <div className="stat-card" data-testid="stat-partners">
-            <div className="stat-number">50+</div>
+            <div className="stat-number">24+</div>
             <div className="stat-label">Partner Farms</div>
           </div>
           <div className="stat-card" data-testid="stat-livestock">
-            <div className="stat-number">10K+</div>
+            <div className="stat-number">4.5K+</div>
             <div className="stat-label">Livestock</div>
           </div>
-          <div className="stat-card" data-testid="stat-states">
-            <div className="stat-number">12</div>
-            <div className="stat-label">States</div>
+          <div className="stat-card" data-testid="stat-districts">
+            <div className="stat-number">18+</div>
+            <div className="stat-label">Districts</div>
           </div>
         </div>
       </section>
