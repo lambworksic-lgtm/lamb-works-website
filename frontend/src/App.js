@@ -515,7 +515,7 @@ function App() {
                     <label htmlFor="phone">Phone</label>
                     <Input
                       id="phone"
-                      placeholder="+91 98765 43210"
+                      placeholder="+91 9902514269"
                       value={formData.phone}
                       onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                       data-testid="contact-form-phone"
