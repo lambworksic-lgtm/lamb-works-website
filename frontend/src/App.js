@@ -314,6 +314,56 @@ function App() {
         </div>
       </section>
 
+      {/* Services Section */}
+      <section id="services" className="section network-section">
+        <div className="container">
+          <div className="section-header">
+            <h2 className="section-title" data-testid="services-title">Our Services</h2>
+            <p className="section-subtitle" data-testid="services-subtitle">
+              Comprehensive solutions for farmers, partners, and investors in the livestock ecosystem
+            </p>
+          </div>
+          <div className="products-content">
+            <div className="product-features-grid">
+              <div className="feature-item" data-testid="service-exclusive-buying">
+                <div className="feature-number">01</div>
+                <h4>Exclusive Animal Buying</h4>
+                <p>Direct procurement of premium sheep and goats from markets to farmers, ensuring quality breeding stock and competitive pricing</p>
+              </div>
+              <div className="feature-item" data-testid="service-buyback">
+                <div className="feature-number">02</div>
+                <h4>Buy Back Guarantee</h4>
+                <p>Assured buyback of fattened sheep from farmers at fair market prices, eliminating market risks and ensuring steady income</p>
+              </div>
+              <div className="feature-item" data-testid="service-feed-supply">
+                <div className="feature-number">03</div>
+                <h4>Feed Supplements Supply</h4>
+                <p>Premium nutritional feed supplements for sheep and goat, formulated for optimal growth, health, and productivity</p>
+              </div>
+              <div className="feature-item" data-testid="service-integration">
+                <div className="feature-number">04</div>
+                <h4>Integration Services</h4>
+                <p>Complete end-to-end support from buying to selling, similar to poultry integration model, covering all aspects of livestock farming</p>
+              </div>
+              <div className="feature-item" data-testid="service-investment">
+                <div className="feature-number">05</div>
+                <h4>Investment Opportunities</h4>
+                <p>Attractive investment options for interested investors looking to participate in India's growing livestock farming sector</p>
+              </div>
+            </div>
+            <div className="products-cta">
+              <Button 
+                className="cta-button large"
+                onClick={() => scrollToSection("contact")}
+                data-testid="services-join-button"
+              >
+                Join Now <ChevronRight className="ml-2 h-5 w-5" />
+              </Button>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Investors Section */}
       <section id="investors" className="section investors-section">
         <div className="container">
