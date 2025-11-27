@@ -46,7 +46,7 @@ function App() {
         <div className="nav-container">
           <div className="nav-logo">
             <span className="logo-icon">LW</span>
-            <span>Lamb Works India Corporation</span>
+            <span>Lamb Works Corporation</span>
           </div>
           
           <div className="nav-links desktop-nav">
