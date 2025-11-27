@@ -45,8 +45,8 @@ function App() {
       <nav className="nav-bar">
         <div className="nav-container">
           <div className="nav-logo">
-            <span className="logo-icon">LW</span>
-            <span>Lamb Works Corporation</span>
+            <img src="https://customer-assets.emergentagent.com/job_farm-integrate/artifacts/dg1tcpri_Main%20Logo.png" alt="Lamb Works Logo" className="logo-icon" />
+            <span className="company-name-vertical">LAMB WORKS CORPORATION</span>
           </div>
           
           <div className="nav-links desktop-nav">
