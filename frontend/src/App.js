@@ -54,6 +54,7 @@ function App() {
             <button onClick={() => scrollToSection("about")} data-testid="nav-about">About</button>
             <button onClick={() => scrollToSection("network")} data-testid="nav-network">Network</button>
             <button onClick={() => scrollToSection("subsidiaries")} data-testid="nav-subsidiaries">Subsidiaries</button>
+            <button onClick={() => scrollToSection("services")} data-testid="nav-services">Services</button>
             <button onClick={() => scrollToSection("investors")} data-testid="nav-investors">Investors</button>
             <button onClick={() => scrollToSection("contact")} data-testid="nav-contact">Contact</button>
           </div>
