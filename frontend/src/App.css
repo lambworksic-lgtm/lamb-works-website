@@ -727,7 +727,7 @@ h1, h2, h3, h4, h5, h6 {
 .footer-logo {
   display: flex;
   align-items: center;
-  gap: 0.75rem;
+  gap: 1rem;
   font-family: 'Space Grotesk', sans-serif;
   font-size: 1.5rem;
   font-weight: 700;
@@ -735,10 +735,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .footer-logo .logo-icon {
+  width: 50px;
+  height: 50px;
+  filter: brightness(0) invert(1);
+}
+
+.footer-logo .company-name-vertical {
   font-family: 'Yeseva One', serif;
-  font-size: 1.75rem;
-  color: #D4A017;
-  font-weight: 400;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  font-size: 1.1rem;
+  letter-spacing: -0.05em;
+  color: white;
+  line-height: 1;
 }
 
 .footer-tagline {
