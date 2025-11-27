@@ -292,8 +292,8 @@ function App() {
               </div>
               <div className="feature-item" data-testid="subsidiary-classic-gudde">
                 <div className="feature-number">05</div>
-                <h4>Classic Gudde</h4>
-                <p>In association with Ambe Sheep Farms, bringing authentic Davanagere-style mutton delicacies. A cherished culinary tradition featuring specially prepared meat that captures the rich heritage and distinctive flavors of Karnataka's renowned meat culture</p>
+                <h4>Classic Gudde™</h4>
+                <p>In association with Ambe Farms, our Classic Gudde Mamsa represents the traditional way of selling mutton where the entire carcass is included - meat, bones, fat, and every natural part, just like how villages followed in the old days</p>
               </div>
               <div className="feature-item" data-testid="subsidiary-farmcuts">
                 <div className="feature-number">06</div>
