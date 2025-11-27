@@ -454,7 +454,7 @@ function App() {
                   <Mail className="contact-icon" />
                   <div>
                     <div className="contact-label">Email</div>
-                    <div className="contact-value">info@lambworks.in</div>
+                    <div className="contact-value">info@lambworkscorporation.in</div>
                   </div>
                 </div>
                 <div className="contact-item" data-testid="contact-phone">
