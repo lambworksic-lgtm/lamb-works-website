@@ -550,7 +550,7 @@ function App() {
             </div>
           </div>
           <div className="footer-bottom">
-            <p>&copy; 2025 Lamb Works. All rights reserved.</p>
+            <p>&copy; 2025 Lamb Works India Corporation Limited. All rights reserved.</p>
           </div>
         </div>
       </footer>
