@@ -320,7 +320,7 @@ function App() {
           <div className="section-header">
             <h2 className="section-title" data-testid="services-title">Our Services</h2>
             <p className="section-subtitle" data-testid="services-subtitle">
-              Comprehensive solutions for farmers, partners, and investors in the livestock ecosystem
+              Comprehensive solutions for farmers, partners and investors in the livestock ecosystem
             </p>
           </div>
           <div className="products-content">
