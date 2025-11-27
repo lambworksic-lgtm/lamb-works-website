@@ -338,7 +338,7 @@ function App() {
               <div className="feature-item" data-testid="service-feed-supply">
                 <div className="feature-number">03</div>
                 <h4>Feed Supplements Supply</h4>
-                <p>Premium nutritional feed supplements for sheep and goat, formulated for optimal growth, health, and productivity</p>
+                <p>Premium nutritional feed supplements for sheep and goat, formulated for optimal growth, health and productivity</p>
               </div>
               <div className="feature-item" data-testid="service-integration">
                 <div className="feature-number">04</div>
