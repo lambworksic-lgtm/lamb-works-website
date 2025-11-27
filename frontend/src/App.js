@@ -205,7 +205,7 @@ function App() {
                 <CardDescription>24+ verified farms across 18+ districts</CardDescription>
               </CardHeader>
               <CardContent>
-                <p>Our partner farmers follow best practices in animal welfare, sustainable grazing, and quality breeding. We provide ongoing support, training, and fair pricing.</p>
+                <p>Our partner farmers follow best practices in animal welfare, sustainable grazing and quality fattening. We provide ongoing support, training and fair pricing.</p>
                 <Button 
                   className="network-cta"
                   onClick={() => scrollToSection("contact")}
