@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "@/App.css";
-import { Menu, X, ChevronRight, Users, Leaf, TrendingUp, Mail, Phone, MapPin, Facebook, Twitter, Linkedin, Instagram } from "lucide-react";
+import { Menu, X, ChevronRight, Users, Leaf, TrendingUp, Mail, Phone, MapPin, Facebook, Twitter, Instagram, Youtube } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
