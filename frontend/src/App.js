@@ -415,14 +415,14 @@ function App() {
                   <Phone className="contact-icon" />
                   <div>
                     <div className="contact-label">Phone</div>
-                    <div className="contact-value">+91 98765 43210</div>
+                    <div className="contact-value">+91 9902514269</div>
                   </div>
                 </div>
                 <div className="contact-item" data-testid="contact-address">
                   <MapPin className="contact-icon" />
                   <div>
                     <div className="contact-label">Address</div>
-                    <div className="contact-value">Mumbai, Maharashtra, India</div>
+                    <div className="contact-value">Lamb Works India Corporation Limited, Hebbal, Bengaluru, Karnataka 560032</div>
                   </div>
                 </div>
               </div>
