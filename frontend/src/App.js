@@ -408,11 +408,11 @@ function App() {
                   <CardTitle>Current Traction</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="opportunity-stat">50+ Farms</p>
+                  <p className="opportunity-stat">24+ Farms</p>
                   <p className="opportunity-label">Growing Network</p>
                   <p className="opportunity-desc">
-                    With 50+ partner farms, 10,000+ livestock, and operations across 12 states,
-                    we're scaling rapidly with strong unit economics.
+                    Our expanding network of 24+ partner farms manages over 4,500 livestock across 18 districts,
+                    demonstrating proven scalability and robust unit economics in the integrated farming model.
                   </p>
                 </CardContent>
               </Card>
