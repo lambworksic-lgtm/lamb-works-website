@@ -580,6 +580,7 @@ function App() {
                 <button onClick={() => scrollToSection("about")}>About Us</button>
                 <button onClick={() => scrollToSection("network")}>Our Network</button>
                 <button onClick={() => scrollToSection("subsidiaries")}>Subsidiaries</button>
+                <button onClick={() => scrollToSection("services")}>Services</button>
               </div>
               <div className="footer-column">
                 <h4>Opportunities</h4>
