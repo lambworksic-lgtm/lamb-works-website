@@ -523,8 +523,8 @@ function App() {
           <div className="footer-content">
             <div className="footer-brand">
               <div className="footer-logo">
-                <Leaf className="logo-icon" />
-                <span>Lamb Works</span>
+                <span className="logo-icon">LW</span>
+                <span>Lamb Works India Corporation</span>
               </div>
               <p className="footer-tagline">Building India's next-gen integrated farming network for sheep and goat</p>
             </div>
