@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#D4A017">
+    <meta name="description" content="Lamb Works Corporation - Building India's next-gen integrated farming network for sheep and goat">
+    <title>Lamb Works Corporation - Integrated Farming Network</title>
+    <link rel="icon" href="https://customer-assets.emergentagent.com/job_farm-integrate/artifacts/dg1tcpri_Main%20Logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=Yeseva+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav-bar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="https://customer-assets.emergentagent.com/job_farm-integrate/artifacts/dg1tcpri_Main%20Logo.png" alt="Lamb Works Logo" class="logo-icon">
+                <span class="company-name-vertical">LAMB WORKS CORPORATION</span>
+            </div>
+            
+            <div class="nav-links desktop-nav">
+                <button onclick="scrollToSection('home')" data-testid="nav-home">Home</button>
+                <button onclick="scrollToSection('about')" data-testid="nav-about">About</button>
+                <button onclick="scrollToSection('network')" data-testid="nav-network">Network</button>
+                <button onclick="scrollToSection('subsidiaries')" data-testid="nav-subsidiaries">Subsidiaries</button>
+                <button onclick="scrollToSection('services')" data-testid="nav-services">Services</button>
+                <button onclick="scrollToSection('investors')" data-testid="nav-investors">Investors</button>
+                <button onclick="scrollToSection('contact')" data-testid="nav-contact">Contact</button>
+            </div>
+
+            <button class="mobile-menu-toggle" onclick="toggleMobileMenu()" data-testid="mobile-menu-toggle" aria-label="Toggle menu">
+                <svg class="menu-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+                <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+            </button>
+        </div>
+
+        <div class="mobile-menu" id="mobileMenu" data-testid="mobile-menu">
+            <button onclick="scrollToSection('home'); toggleMobileMenu()">Home</button>
+            <button onclick="scrollToSection('about'); toggleMobileMenu()">About</button>
+            <button onclick="scrollToSection('network'); toggleMobileMenu()">Network</button>
+            <button onclick="scrollToSection('subsidiaries'); toggleMobileMenu()">Subsidiaries</button>
+            <button onclick="scrollToSection('services'); toggleMobileMenu()">Services</button>
+            <button onclick="scrollToSection('investors'); toggleMobileMenu()">Investors</button>
+            <button onclick="scrollToSection('contact'); toggleMobileMenu()">Contact</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <div class="hero-badge" data-testid="hero-badge">
+                <span class="badge-dot"></span>
+                India's Next-Gen Farming Network
+            </div>
+            <h1 class="hero-title" data-testid="hero-title">
+                Building India's next-gen<br>
+                <span class="highlight">integrated farming network</span><br>
+                for sheep and goat
+            </h1>
+            <p class="hero-subtitle" data-testid="hero-subtitle">
+                Connecting traditional farming with modern technology to create a sustainable,
+                profitable, and scalable livestock ecosystem across India.
+            </p>
+            <div class="hero-cta">
+                <button class="cta-button large" onclick="scrollToSection('network')" data-testid="hero-join-button">
+                    Join Our Network
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="margin-left: 8px;">
+                        <polyline points="9 18 15 12 9 6"></polyline>
+                    </svg>
+                </button>
+                <button class="outline-button large" onclick="scrollToSection('investors')" data-testid="hero-invest-button">
+                    Invest With Us
+                </button>
+            </div>
+        </div>
+        <div class="hero-stats">
+            <div class="stat-card" data-testid="stat-partners">
+                <div class="stat-number">24+</div>
+                <div class="stat-label">Partner Farms</div>
+            </div>
+            <div class="stat-card" data-testid="stat-livestock">
+                <div class="stat-number">4.5K+</div>
+                <div class="stat-label">Livestock</div>
+            </div>
+            <div class="stat-card" data-testid="stat-districts">
+                <div class="stat-number">18+</div>
+                <div class="stat-label">Districts</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-testid="about-title">About Lamb Works</h2>
+                <p class="section-subtitle" data-testid="about-subtitle">
+                    Revolutionizing livestock farming through integration, technology and sustainable practices
+                </p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p data-testid="about-description">
+                        Lamb Works is pioneering India's first integrated farming network for sheep and goat livestock.
+                        We connect traditional farmers with modern agricultural technology, creating a sustainable ecosystem
+                        that benefits everyone in the supply chain.
+                    </p>
+                    <p>
+                        Our mission is to transform the livestock sector by implementing best practices in animal husbandry,
+                        providing access to quality feed and veterinary care, and ensuring fair prices for farmers while
+                        delivering premium quality products to consumers.
+                    </p>
+                    <div class="mission-cards">
+                        <div class="mission-card">
+                            <svg class="mission-icon" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                                <circle cx="9" cy="7" r="4"></circle>
+                                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                            </svg>
+                            <h3 data-testid="mission-empower-title">Empower Farmers</h3>
+                            <p>Providing resources, training and market access to small-scale farmers</p>
+                        </div>
+                        <div class="mission-card">
+                            <svg class="mission-icon" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"></path>
+                                <path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"></path>
+                            </svg>
+                            <h3 data-testid="mission-sustainable-title">Sustainable Practices</h3>
+                            <p>Implementing eco-friendly and ethical farming methods across our network</p>
+                        </div>
+                        <div class="mission-card">
+                            <svg class="mission-icon" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="22 7 13.5 15.5 8.5 10.5 2 17"></polyline>
+                                <polyline points="16 7 22 7 22 13"></polyline>
+                            </svg>
+                            <h3 data-testid="mission-quality-title">Quality Assurance</h3>
+                            <p>Ensuring premium quality products through stringent standards and monitoring</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Network Section -->
+    <section id="network" class="section network-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-testid="network-title">Our Farming Network</h2>
+                <p class="section-subtitle" data-testid="network-subtitle">
+                    A growing ecosystem of farmers, suppliers and distributors working together
+                </p>
+            </div>
+            <div class="network-grid">
+                <div class="network-card" data-testid="network-card-farmers">
+                    <div class="network-icon-wrapper">
+                        <svg class="network-icon" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="9" cy="7" r="4"></circle>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                        </svg>
+                    </div>
+                    <h3>Partner Farmers</h3>
+                    <p class="card-description">24+ verified farms across 18+ districts</p>
+                    <p>Our partner farmers follow best practices in animal welfare, sustainable grazing and quality fattening. We provide ongoing support, training and fair pricing.</p>
+                    <button class="network-cta" onclick="scrollToSection('contact')" data-testid="network-join-farmers-button">
+                        Become a Partner
+                    </button>
+                </div>
+
+                <div class="network-card" data-testid="network-card-supply">
+                    <div class="network-icon-wrapper">
+                        <svg class="network-icon" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"></path>
+                            <path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"></path>
+                        </svg>
+                    </div>
+                    <h3>Supply Chain</h3>
+                    <p class="card-description">End-to-end integrated supply chain</p>
+                    <p>From feed suppliers to veterinary services, logistics partners to processing facilities - we've built a complete ecosystem that ensures quality at every step.</p>
+                    <button class="network-cta" onclick="scrollToSection('contact')" data-testid="network-partner-supply-button">
+                        Partner With Us
+                    </button>
+                </div>
+
+                <div class="network-card" data-testid="network-card-distribution">
+                    <div class="network-icon-wrapper">
+                        <svg class="network-icon" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="22 7 13.5 15.5 8.5 10.5 2 17"></polyline>
+                            <polyline points="16 7 22 7 22 13"></polyline>
+                        </svg>
+                    </div>
+                    <h3>Distribution Network</h3>
+                    <p class="card-description">Reaching customers across India</p>
+                    <p>Our distribution partners ensure fresh, quality products reach consumers quickly. We serve restaurants, retailers and direct-to-consumer channels.</p>
+                    <button class="network-cta" onclick="scrollToSection('contact')" data-testid="network-distribute-button">
+                        Distribute With Us
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Subsidiaries Section -->
+    <section id="subsidiaries" class="section products-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-testid="subsidiaries-title">Our Subsidiaries</h2>
+                <p class="section-subtitle" data-testid="subsidiaries-subtitle">
+                    Diversified portfolio of companies serving the complete agricultural value chain
+                </p>
+            </div>
+            <div class="products-content">
+                <div class="product-features-grid">
+                    <div class="feature-item" data-testid="subsidiary-farmers-market-farms">
+                        <div class="feature-number">01</div>
+                        <h4>Farmers Market Farms</h4>
+                        <p>Integrated sheep and goat farming operations providing premium quality livestock and sustainable farming solutions</p>
+                    </div>
+                    <div class="feature-item" data-testid="subsidiary-farmers-market-training">
+                        <div class="feature-number">02</div>
+                        <h4>Farmers Market Training</h4>
+                        <p>Comprehensive training programs for farmers on modern animal husbandry, breeding techniques and farm management</p>
+                    </div>
+                    <div class="feature-item" data-testid="subsidiary-rapid-feeds">
+                        <div class="feature-number">03</div>
+                        <h4>Rapid Feeds™</h4>
+                        <p>High-quality nutritional feed solutions designed for optimal livestock growth and health across all farming stages</p>
+                    </div>
+                    <div class="feature-item" data-testid="subsidiary-farmers-market-poultry">
+                        <div class="feature-number">04</div>
+                        <h4>Farmers Market Poultry</h4>
+                        <p>Modern poultry farming operations delivering quality products and expanding our integrated farming ecosystem</p>
+                    </div>
+                    <div class="feature-item" data-testid="subsidiary-classic-gudde">
+                        <div class="feature-number">05</div>
+                        <h4>Classic Gudde™</h4>
+                        <p>In association with Ambe Farms, our Classic Gudde Mamsa represents the traditional way of selling mutton where the entire carcass is included - meat, bones, fat and every natural part, just like how villages followed in the old days</p>
+                    </div>
+                    <div class="feature-item" data-testid="subsidiary-farmcuts">
+                        <div class="feature-number">06</div>
+                        <h4>Farmcuts™</h4>
+                        <p>Your premium destination for the finest selection of fresh, tender chicken, mutton and fish. We deliver farm-fresh quality with expert butchery, ensuring every cut meets the highest standards of freshness and taste</p>
+                    </div>
+                </div>
+                <div class="products-cta">
+                    <button class="cta-button large" onclick="scrollToSection('contact')" data-testid="subsidiaries-contact-button">
+                        Partner With Us
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="margin-left: 8px;">
+                            <polyline points="9 18 15 12 9 6"></polyline>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section network-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-testid="services-title">Our Services</h2>
+                <p class="section-subtitle" data-testid="services-subtitle">
+                    Comprehensive solutions for farmers, partners and investors in the livestock ecosystem
+                </p>
+            </div>
+            <div class="products-content">
+                <div class="product-features-grid">
+                    <div class="feature-item" data-testid="service-exclusive-buying">
+                        <div class="feature-number">01</div>
+                        <h4>Exclusive Animal Buying</h4>
+                        <p>Direct procurement of premium sheep and goats from markets to farmers, ensuring quality breeding stock and competitive pricing</p>
+                    </div>
+                    <div class="feature-item" data-testid="service-buyback">
+                        <div class="feature-number">02</div>
+                        <h4>Buy Back Guarantee</h4>
+                        <p>Assured buyback of fattened sheep from farmers at fair market prices, eliminating market risks and ensuring steady income</p>
+                    </div>
+                    <div class="feature-item" data-testid="service-feed-supply">
+                        <div class="feature-number">03</div>
+                        <h4>Feed Supplements Supply</h4>
+                        <p>Premium nutritional feed supplements for sheep and goat, formulated for optimal growth, health and productivity</p>
+                    </div>
+                    <div class="feature-item" data-testid="service-integration">
+                        <div class="feature-number">04</div>
+                        <h4>Integration Services</h4>
+                        <p>Complete end-to-end support from buying to selling, similar to poultry integration model, covering all aspects of livestock farming</p>
+                    </div>
+                    <div class="feature-item" data-testid="service-investment">
+                        <div class="feature-number">05</div>
+                        <h4>Investment Opportunities</h4>
+                        <p>Attractive investment options for interested investors looking to participate in India's growing livestock farming sector</p>
+                    </div>
+                </div>
+                <div class="products-cta">
+                    <button class="cta-button large" onclick="scrollToSection('contact')" data-testid="services-join-button">
+                        Join Now
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="margin-left: 8px;">
+                            <polyline points="9 18 15 12 9 6"></polyline>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Investors Section -->
+    <section id="investors" class="section investors-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-testid="investors-title">Investor Opportunities</h2>
+                <p class="section-subtitle" data-testid="investors-subtitle">
+                    Join us in building India's largest integrated livestock farming network
+                </p>
+            </div>
+            <div class="investors-content">
+                <div class="opportunity-grid">
+                    <div class="opportunity-card" data-testid="opportunity-growth">
+                        <h3>Market Opportunity</h3>
+                        <p class="opportunity-stat">₹2.5L Cr+</p>
+                        <p class="opportunity-label">Indian Livestock Market Size</p>
+                        <p class="opportunity-desc">
+                            India's livestock sector is growing at 8% annually. With increasing demand for
+                            quality meat products and organized supply chains, the opportunity is immense.
+                        </p>
+                    </div>
+
+                    <div class="opportunity-card" data-testid="opportunity-model">
+                        <h3>Business Model</h3>
+                        <p class="opportunity-stat">Asset-Light</p>
+                        <p class="opportunity-label">Network-Based Model</p>
+                        <p class="opportunity-desc">
+                            We operate an asset-light model by partnering with farmers and leveraging
+                            existing infrastructure while adding technology and management layer.
+                        </p>
+                    </div>
+
+                    <div class="opportunity-card" data-testid="opportunity-traction">
+                        <h3>Current Traction</h3>
+                        <p class="opportunity-stat">24+ Farms</p>
+                        <p class="opportunity-label">Growing Network</p>
+                        <p class="opportunity-desc">
+                            Our expanding network of 24+ partner farms manages over 4,500 livestock across 18 districts,
+                            demonstrating proven scalability and robust unit economics in the integrated farming model.
+                        </p>
+                    </div>
+                </div>
+                <div class="investors-cta">
+                    <h3>Ready to invest in the future of farming?</h3>
+                    <p>Join us in revolutionizing India's livestock industry</p>
+                    <button class="cta-button large" onclick="scrollToSection('contact')" data-testid="investors-contact-button">
+                        Get Investment Deck
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="margin-left: 8px;">
+                            <polyline points="9 18 15 12 9 6"></polyline>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-testid="contact-title">Get In Touch</h2>
+                <p class="section-subtitle" data-testid="contact-subtitle">
+                    Let's discuss how we can work together
+                </p>
+            </div>
+            <div class="contact-grid-single">
+                <div class="contact-info-centered">
+                    <h3>Contact Information</h3>
+                    <p class="contact-desc">Reach out to us for partnerships, investments or general inquiries.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item" data-testid="contact-email">
+                            <svg class="contact-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                            <div>
+                                <div class="contact-label">Email</div>
+                                <div class="contact-value"><a href="mailto:info@lambworkscorporation.in">info@lambworkscorporation.in</a></div>
+                            </div>
+                        </div>
+                        <div class="contact-item" data-testid="contact-phone">
+                            <svg class="contact-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                            </svg>
+                            <div>
+                                <div class="contact-label">Phone</div>
+                                <div class="contact-value"><a href="tel:+919902514269">+91 9902514269</a></div>
+                                <div class="contact-value"><a href="tel:+919108208475">+91 9108208475</a></div>
+                            </div>
+                        </div>
+                        <div class="contact-item" data-testid="contact-address">
+                            <svg class="contact-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                <circle cx="12" cy="10" r="3"></circle>
+                            </svg>
+                            <div>
+                                <div class="contact-label">Address</div>
+                                <div class="contact-value">Lamb Works India Corporation Limited, Hebbal, Bengaluru, Karnataka 560032</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/FarmersMarketKannada/" target="_blank" rel="noopener noreferrer" class="social-link" data-testid="social-facebook" aria-label="Facebook">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                            </svg>
+                        </a>
+                        <a href="https://www.instagram.com/farmers_marketyt/" target="_blank" rel="noopener noreferrer" class="social-link" data-testid="social-instagram" aria-label="Instagram">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                            </svg>
+                        </a>
+                        <a href="https://www.youtube.com/c/FarmersMarketShorts" target="_blank" rel="noopener noreferrer" class="social-link" data-testid="social-youtube" aria-label="YouTube">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path>
+                                <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <img src="https://customer-assets.emergentagent.com/job_farm-integrate/artifacts/dg1tcpri_Main%20Logo.png" alt="Lamb Works Logo" class="logo-icon">
+                        <span class="company-name-vertical">LAMB WORKS CORPORATION</span>
+                    </div>
+                    <p class="footer-tagline">Building India's next-gen integrated farming network for sheep and goat</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Company</h4>
+                        <button onclick="scrollToSection('about')">About Us</button>
+                        <button onclick="scrollToSection('network')">Our Network</button>
+                        <button onclick="scrollToSection('subsidiaries')">Subsidiaries</button>
+                        <button onclick="scrollToSection('services')">Services</button>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Opportunities</h4>
+                        <button onclick="scrollToSection('investors')">For Investors</button>
+                        <button onclick="scrollToSection('network')">For Farmers</button>
+                        <button onclick="scrollToSection('contact')">For Partners</button>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Legal</h4>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Service</a>
+                        <a href="#">Cookie Policy</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Lamb Works India Corporation Limited. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
